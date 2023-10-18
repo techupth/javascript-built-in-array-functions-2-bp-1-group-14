@@ -373,5 +373,21 @@ const bills = [
   },
 ];
 
+
+function  totalAmount(bill){
+  if(bill.member !== null){
+return bill.id
+  }
+}
+
+const callbackFn2 = (element) => {
+ return element.member.name;
+}
+
+let text = bills.filter(totalAmount).map(callbackFn2)
+console.log(text)
+
+
 // Start coding here
-const billMembers;
+
+

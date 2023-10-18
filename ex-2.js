@@ -373,6 +373,17 @@ const bills = [
   },
 ];
 
+let billmember = [];
+function  totalAmount(bill){
+  if(bill.member !== null){
+  return billmember.push(bill.member)
+  }else{
+  }
+ 
+}
+
+let newbills = bills.filter(totalAmount)
+console.log(newbills)
+
 // Start coding here
 
-const newBills;

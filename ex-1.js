@@ -373,4 +373,12 @@ const bills = [
   },
 ];
 
+function  totalAmount(cur,bill){
+  return cur + bill.total
+}
+
+let billAmount = bills.reduce(totalAmount,0)
+console.log("Total bill transcation is " + billAmount)
+
 // Start coding here
+

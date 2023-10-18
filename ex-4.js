@@ -373,5 +373,27 @@ const bills = [
   },
 ];
 
-// Start coding here
-const totalMembers;
+
+function  totalAmount(bill){
+  if(bill.member !== null){
+return bill.id
+  }
+}
+
+const callbackFn2 = (element) => {
+ return element.member.name;
+}
+
+let text = bills.filter(totalAmount).map(callbackFn2)
+console.log(text)
+
+let uniqueCount = 0;
+text.forEach((element, index) => {
+  if (text.indexOf(element) === index) {
+    uniqueCount += 1;
+  }
+});
+console.log("Unique Members Count : "+uniqueCount)
+
+
+
